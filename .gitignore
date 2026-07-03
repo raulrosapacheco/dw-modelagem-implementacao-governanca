@@ -1,0 +1,58 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Diretório criado pelo Terraform
+**/.terraform/*
+
+# Arquivos de estado
+*.tfstate
+*.tfstate.*
+
+# Logs de erro
+crash.log
+crash.*.log
+
+# Arquivos de variáveis locais (podem conter informações sensíveis)
+*.tfvars
+*.tfvars.json
+
+# Arquivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivo de configuração da CLI do Terraform
+.terraformrc
+terraform.rc
